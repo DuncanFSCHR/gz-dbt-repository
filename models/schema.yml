@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: gz_raw_data
+    tables:
+      - name: raw_gz_sales
+        description: sales from Green
+      - name: raw_gz_product
+        description: product from Green
+      - name: raw_gz_ship
+        description: ship from Green
