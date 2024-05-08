@@ -4,8 +4,7 @@ sources:
   - name: gz_raw_data
     description: whole data set
     tables:
-      - name: sales
-        identifier: raw_gz_sales
+      - name: raw_gz_sales
         description: greens sales
       - name: raw_gz_product
         description: green products
