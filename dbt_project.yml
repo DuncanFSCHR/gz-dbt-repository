@@ -40,7 +40,5 @@ models:
     # Applies to all files under models/example/
     mart:
       +materialized: table
-    intermediate:
-      +materialized: view
-    staging:
-      +materialized: view
+      finance:
+        +schema: dbt_project_Duncan
