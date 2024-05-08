@@ -13,3 +13,15 @@ sources:
       - name: shop
         identifier: raw_gz_ship
         description: green ship
+      - name: adwords
+        identifier: raw_gz_adwords
+        description: green ads
+      - name: bing
+        identifier: raw_gz_bing
+        description: green bing
+      - name: criteo
+        identifier: raw_gz_criteo
+        description: green criteo
+      - name: facebook
+        identifier: raw_gz_facebook
+        description: green facebook
