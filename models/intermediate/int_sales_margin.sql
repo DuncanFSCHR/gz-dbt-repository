@@ -3,7 +3,8 @@ SELECT
     date_date, 
     orders_id,
     revenue, 
-    quantity, 
+    quantity,
+    {{ margin_percent('s.revenue','s.quantity*CAST(p.purchse_price AS FLOAT64)') }},
     CAST(purchse_price AS FLOAT64) AS purchase_price, 
     ROUND(s.quantity*CAST(p.purchse_price AS FLOAT64),2) AS purchase_cost,
     s.revenue - ROUND(s.quantity*CAST(p.purchse_price AS FLOAT64),2) AS margin

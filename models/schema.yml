@@ -1,4 +1,3 @@
-version: 2
 
 sources: 
   - name: gz_raw_data
