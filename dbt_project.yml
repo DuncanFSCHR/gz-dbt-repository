@@ -41,6 +41,6 @@ models:
     mart:
       +materialized: table
     intermediate:
-      +materialized: table
+      +materialized: view
     staging:
-      +materialized: table
+      +materialized: view
